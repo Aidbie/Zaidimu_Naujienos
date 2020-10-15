@@ -1,0 +1,207 @@
+@CHARSET "UTF-8";
+
+ul, li {
+    background-color:  #565c6c ;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    color: #8A8985; /* teksto spalva */
+    font-family: Arial, Helvetica, sans-serif; /* šriftas */
+    font-size: 14px; /* teksto dydis */
+    background-color: #e3e3e3;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+
+/* pagrindinis puslapio blokas */
+#body {
+    width: 1000px;
+    margin: 0px auto; /* bloko centravimas puslapio viduje */
+}
+
+/* viršutinė puslapio dalis */
+#header {
+    width: 250px;
+    height: 70px;
+    background-color:   #6b86cd ;
+    border-left: 1px solid silver;
+    float: left;
+
+}
+
+#slogan {
+    margin: 20px 0px 0px 15px;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+/* turinio blokelis */
+#content {
+    width: 1000px;
+    background-color: #fff;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    float: left;
+
+}
+
+/* pagrindinio meniu blokelis */
+#topMenu {
+    width: 1000px;
+    height: 62px;
+    background-color:  #565c6c;
+
+    font-size: 16px;
+
+    float: left;
+}
+
+#topMenu li {
+    float: left; /* nustatome horizontalųjį meniu punktų lygiavimą */
+    list-style: none; /* paslepiame sąrašo stiliaus savybes */
+
+}
+
+#topMenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 30px;
+    text-decoration: none;
+
+}
+#topMenu li ul {
+    background-color:  #565c6c ;
+}
+
+#topMenu li a:hover {
+    background-color: #111;
+}
+
+#topMenu li a.active {
+    background-color: #7493e6 ;
+}
+a.slogan {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 30px;
+    text-decoration: none;
+}
+
+/* kairysis puslapio blokelis */
+#contentLeft {
+    display: block;
+    width: 200px;
+    text-align: center;
+    float: left; /* blokelio pozicija */
+
+    border-bottom: 1px solid silver;
+}
+
+#contentLeft li {
+    list-style: none;
+
+}
+
+#contentLeft li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 22px 30px;
+    text-align: center;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+
+
+
+#contentLeft li a:hover {
+    background-color: #111;
+}
+
+#contentLeft li a.active {
+    background-color: #7493e6 ;
+
+}
+
+#contentLeft h2 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #7D7764;
+    letter-spacing: -0.5px;
+    margin: 10px 0px 0px 18px;
+}
+
+
+/* turinio blokelis */
+#contentRight {
+    width: 699px;
+    min-height: 470px; /* minimalus blokelio aukštis */
+    border-left: 1px solid silver;
+    float: left; /* blokelio pozicija */
+}
+
+h2#pageTitle {
+    font-size: 26px;
+    margin: 10px 0px 0px 15px;
+    font-weight: normal;
+}
+
+.newsItem {
+    border-bottom: 1px solid silver;
+}
+
+.newsItemLast {
+    border: 0px;
+}
+
+#contentRight p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsItem p#title {
+    font-weight: bold;
+}
+
+ul.pagination  {
+    list-style: none;
+    text-align: center;
+    background-color: white ;
+}
+li.page-item  {
+
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: white ;
+}
+
+
+/* apatinė puslapio dalis */
+#footer {
+
+    width: 1000px;
+    height: 105px;
+    border: 1px solid silver;
+    float: left;
+    background-color: #6E6E6E;
+    color: #fff;
+
+
+}
+
+table, th,tr, td {
+    border: 1px solid black;
+}
